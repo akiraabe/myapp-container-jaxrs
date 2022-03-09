@@ -32,7 +32,9 @@
      検証時と異なるバージョンが選択された場合、アプリケーションの動作に影響が出る可能性があるので、
      プロジェクトにおける検証が完了した段階で、バージョンを固定するために、イメージをダイジェストで指定することを推奨する。
     -->
-    <jib.from.image>tomcat:9.0.36-jdk11-adoptopenjdk-hotspot</jib.from.image>
+    <!-- <jib.from.image>tomcat:9.0.36-jdk11-adoptopenjdk-hotspot</jib.from.image> -->
+    <!-- <jib.from.image>tomcat:9.0.45-jdk11-corretto</jib.from.image> -->
+    <jib.from.image>tomcat:9.0-jdk11-temurin</jib.from.image>
   </properties>
 
   <!--
