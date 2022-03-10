@@ -100,9 +100,6 @@ gsp-target/
 ## File-based project format:
 *.iws
 
-## h2
-./h2
-
 ## temp file
 Dockerfile
 work/
